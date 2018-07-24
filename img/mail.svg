@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jo-burnell-post-03" transform="translate(-493.000000, -797.000000)">
+            <g id="mail" transform="translate(493.000000, 797.000000)">
+                <circle id="Oval-1-Copy-4" fill="#71A64A" cx="15" cy="15" r="15"></circle>
+                <g id="black-envelope" transform="translate(5.000000, 8.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M1.57357143,0.9317 L8.74071429,6.4953 C9.06571429,6.7473 9.51357143,6.8593 9.94857143,6.8383 C10.3828571,6.8593 10.8307143,6.748 11.1557143,6.4953 L18.3228571,0.9317 C18.8971429,0.4886 18.7671429,0.1253 18.0385714,0.1253 L9.94928571,0.1253 L1.86,0.1253 C1.13071429,0.1253 1.00071429,0.4886 1.57357143,0.9317 Z" id="Shape"></path>
+                    <path d="M18.8407143,2.3996 L11.0085714,8.2271 C10.7157143,8.4427 10.3321429,8.5477 9.95,8.5428 C9.56714286,8.5477 9.18357143,8.442 8.89071429,8.2271 L1.05714286,2.3996 C0.475714286,1.9677 0,2.1994 0,2.9141 L0,12.4754 C0,13.1901 0.597142857,13.7753 1.32642857,13.7753 L9.94857143,13.7753 L18.5714286,13.7753 C19.3007143,13.7753 19.8978571,13.1901 19.8978571,12.4754 L19.8978571,2.9141 C19.8978571,2.1994 19.4221429,1.9677 18.8407143,2.3996 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
