@@ -39,13 +39,14 @@ body {
 
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
     font-size: 42px;
-    color: $clr-blue-green;
+    color: $clr-blue-green!important;
     letter-spacing: -1.17px;
     font-weight: 700;
     line-height: normal;
 
 }
-
+.navbar-light .navbar-nav .nav-link:hover {color: $clr-blue-green;}
+//.navbar-light .navbar-nav .nav-link {line-height: 22px!important;}
 .c-margin {
     margin-top: -70px;
 }
@@ -128,9 +129,9 @@ p a, p a:hover {
 .c-padding-4 {
     padding-top: 75px;
 }
-/*.c-padding-right {
-padding-right: 30px;
-}*/
+.c-padding-right {
+    padding-right: 15px;
+}
 
 .c-padding-col-1 {
     padding-left: 30px;
@@ -244,14 +245,13 @@ margin-left: 115px;
     color: $clr-black;
 }
 
-@media (min-width: 1200px) {
-
-    /* .c-padding-right {
-    padding-right: 10px;
-}
-    .c-margin-left {
-    margin-left: 65px;
-}*/
+@media (max-width: 1199px) {
+    .c-padding-col {
+        padding-bottom: .25rem;
+    }
+    .c-padding-right {
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -261,6 +261,12 @@ margin-left: 115px;
     .c-padding-4 {
         padding-top: 78px!important;
     }
+    .c-padding-col {
+        padding-bottom: 0rem;
+    }
+    .c-div-height {
+        height: 200px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -269,5 +275,8 @@ margin-left: 115px;
     }
     .c-padding-col-2 {
         padding-left: 0px;
+    }
+    .c-div-height {
+        height: 250px;
     }
 }
