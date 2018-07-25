@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box; }
 
-body, .text-sm-1, .text-sm-2, .form-control, .btn.btn-primary,
+body, .text-sm-1, .text-sm-2, .form-control, .custom-input, .custom-file-label, .btn.btn-primary,
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
 .btn.btn-primary:visited,
@@ -119,12 +119,29 @@ p a span {
   /* Most modern browsers support this now. */
   color: #000 !important; }
 
-.form-control {
+.form-control, .custom-input {
   border-radius: 0rem;
   border: 1px solid #979797;
   height: 42px;
   background-color: #fff;
   text-align: left; }
+
+.custom-file-label::after {
+  border-radius: 0rem;
+  border-left: 1px solid #2451A3;
+  background-color: #2451A3;
+  color: #fff;
+  height: 2.5rem;
+  line-height: 25px; }
+
+.custom-file-label {
+  border-radius: 0rem;
+  border: 1px solid #979797;
+  height: 2.625rem;
+  line-height: 27px; }
+
+.c-height {
+  height: 70px; }
 
 .btn.btn-primary,
 .btn.btn-primary:hover,

@@ -141,7 +141,7 @@ p a span{
     color: $clr-black!important;
 }
 
-.form-control {
+.form-control, .custom-input {
     @extend %text-shared;
     border-radius: 0rem;
     border: 1px solid $clr-border;
@@ -150,6 +150,24 @@ p a span{
     text-align: left;
 }
 
+.custom-file-label::after{
+    border-radius: 0rem;
+    border-left: 1px solid $clr-btn;
+    background-color: $clr-btn;
+    color: $clr-white;
+    height: 2.5rem;
+    line-height: 25px;
+}
+.custom-file-label {
+    @extend %text-shared;
+    border-radius: 0rem;
+    border: 1px solid $clr-border;
+    height: 2.625rem;
+    line-height: 27px;
+}
+.c-height {
+    height: 70px;
+}
 .btn.btn-primary,
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
