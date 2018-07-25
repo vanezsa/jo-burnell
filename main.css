@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box; }
 
-body, .text-sm-1, .text-sm-2, .form-control, .custom-input, .custom-file-label, .btn.btn-primary,
+body, .text-sm-1, .form-control, .custom-input, .custom-file-label, .btn.btn-primary,
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
 .btn.btn-primary:visited,
@@ -47,6 +47,10 @@ body {
 p a, p a:hover {
   color: #000; }
 
+.pl-3 a, .pl-3 a:hover {
+  color: #000;
+  font-weight: 400; }
+
 .contact {
   background-image: url(img/contact-img.png);
   background-position: inherit;
@@ -79,7 +83,32 @@ p a, p a:hover {
   font-size: 15px; }
 
 .text-sm-3 {
-  font-size: 9px; }
+  font-size: 9px;
+  line-height: 12px; }
+
+.navbar-light .navbar-nav .nav-link {
+  line-height: 50px;
+  color: #227B88;
+  font-size: 22px;
+  font-weight: 400; }
+
+.c-padding-footer {
+  padding-left: 30px; }
+
+.c-padding-3 {
+  padding-top: 120px; }
+
+.c-padding-4 {
+  padding-top: 75px; }
+
+/*.c-padding-right {
+padding-right: 30px;
+}*/
+.c-padding-col-1 {
+  padding-left: 30px; }
+
+.c-padding-col-2 {
+  padding-left: 20px; }
 
 a, a:hover {
   font-weight: 700;
@@ -89,8 +118,8 @@ a, a:hover {
 p a span {
   color: #000 !important; }
 
-.img-shadow-1 {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.31); }
+.img-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
 
 .input-group-append .btn {
   z-index: 0; }
@@ -132,7 +161,7 @@ p a span {
   background-color: #2451A3;
   color: #fff;
   height: 2.5rem;
-  line-height: 25px; }
+  line-height: 26px; }
 
 .custom-file-label {
   border-radius: 0rem;
@@ -143,6 +172,27 @@ p a span {
 .c-height {
   height: 70px; }
 
+.c-div-height {
+  height: 270px; }
+
+.footer-margin {
+  margin-top: -57px; }
+
+.footer-margin-1 {
+  margin-top: -93px; }
+
+.c-padding-col {
+  padding-bottom: 4rem; }
+
+.img-1 {
+  background-image: url(img/img-1.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 230px; }
+
+/*.c-margin-left {
+margin-left: 115px;
+}*/
 .btn.btn-primary,
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
@@ -154,6 +204,31 @@ p a span {
   color: #fff;
   font-family: "Karla", sans-serif;
   height: 40px;
-  text-transform: uppercase; }
+  line-height: 26px; }
+
+.btn-secondary, .show > .btn-secondary.dropdown-toggle, .btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  background-color: #fff;
+  border-color: #000 !important;
+  color: #000; }
+
+@media (min-width: 1200px) {
+    /* .c-padding-right {
+    padding-right: 10px;
+}
+    .c-margin-left {
+    margin-left: 65px;
+}*/ }
+@media (max-width: 991px) {
+  .c-padding-3 {
+    padding-top: 50px; }
+
+  .c-padding-4 {
+    padding-top: 78px !important; } }
+@media (max-width: 767px) {
+  .c-padding-4 {
+    padding-top: 20px !important; }
+
+  .c-padding-col-2 {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -13,40 +13,47 @@
     </head>
     <body>
         <nav class="navbar pt-4 pb-2 container-fluid navbar-expand-lg navbar-light bg-light nav-custom">
-            <a class="navbar-brand pl-4" href="#">Jo Burnell</a>
+            <a class="navbar-brand c-padding-col-2" href="#">Jo Burnell</a>
             <button class="c-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link mt-2" href="index.html">Nav Item</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mt-2" href="index.html">Nav Item</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mt-2" href="index.html">Sign in</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mt-2" href="index.html"><span class="custom-nav-text">Join with FB</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+            <div class="collapse navbar-collapse c-margin-left" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="page.html">Editing Services</a>
+                    </li>
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="post.html">Blog</a>
+                    </li>
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item c-padding-right">
+                        <a class="nav-link mt-2" href="subscribe.html">Subscribe</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="nav-link mt-2" href="index.html"><img src="img/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="index.html"><img src="img/fb.svg" alt="facebook"></a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-lg-2 pl-5 mt-3">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-2 c-padding-col-1 mt-3">
                     <img src="img/jo-burnell.svg" alt="jo-burnell" class="rounded-circle mb-4">
                     <p>Jo Burnell is a freelance writer, editor, book reviewer and paediatric speech pathologist. <br></p>
                     <a href="#">> Learn more about Jo</a>
-                    <div class="text-sm-2 mt-5 pt-5">
+                    <div class="text-sm-2 c-padding-3">
                         <p><i>“Jo’s assessments of Unpublished Picture Book Manuscripts were thoughtful, insightful and detailed, encouraging each creator to think outside the square and push themselves higher.”</i><br><br>
                             <span class="font-weight-bold">–Tania McCartney,</span> <br>
                             taniamccartney.com
@@ -54,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-5 offset-lg-1 mt-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-5 offset-xl-1 mt-5">
                     <div class="text-title">Editing for websites</div>
                     <div class="pt-5 mt-2">
                         <p>John draw real poor on call my from. May she mrs furnished discourse extremely Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed parlors towards.</p>
@@ -71,19 +78,25 @@
                             <input type="text" class="form-control" placeholder="Short question">
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
-                            <input type="text" class="form-control c-height" placeholder="Long question">
+                            <div class="input-group">
+                                <textarea class="form-control c-height" aria-label="With textarea" placeholder="Long question"></textarea>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
                             <input type="text" class="form-control" placeholder="Short question">
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
-                            <input type="text" class="form-control c-height" placeholder="Long question">
+                            <div class="input-group">
+                                <textarea class="form-control c-height" aria-label="With textarea" placeholder="Long question"></textarea>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
                             <input type="text" class="form-control" placeholder="Short question">
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
-                            <input type="text" class="form-control c-height" placeholder="Long question">
+                            <div class="input-group">
+                                <textarea class="form-control c-height" aria-label="With textarea" placeholder="Long question"></textarea>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-12 mb-2">
                             <div class="custom-file">
@@ -91,34 +104,53 @@
                                 <label class="custom-file-label" for="customFile">Choose file...</label>
                             </div>
                         </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 mb-2 mt-2">
+                            <a href="#" class="btn btn-primary btn-block">Send</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-2 offset-lg-1 mt-5 pb-4">
-                    <div class="pt-5 mt-4">
-                        <img src="img/services-img.png" alt="services" class="c-padding">
-                        <div class="text-title c-margin pl-3">
-                            <p>Jo Burnell Writing
-                                and Editing Services</p>
-                        </div>
-                        <div class="pl-3">
-                            <p>Inquietude simplicity terminated she compliment remarkably few her nay. The weeks are ham asked jokes.</p>
-                            <p><a href="#"><span class="font-weight-bold">> See all services</span></a></p>
-                        </div>
+               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-2 offset-xl-1 pb-4 c-padding-4">
+                    <div class="text-title  pl-3 pt-5">
+                        <p>Categories</p>
+                    </div>
+                    <div class="pl-3">
+                        <a href="#">Writing</a> <br>
+                        <a href="#">Reviews</a> <br>
+                        <a href="#">Events</a> <br>
+                        <a href="#">Reading</a> <br>
+                        <a href="#">Short Stories</a> <br>
+                        <a href="#">Fiction</a> <br>
+                        <a href="#">Young Adult</a> 
                     </div>
 
-                    <div class="mt-5">
-                        <img src="img/contact-img.png" alt="services" class="c-padding">
-                        <div class="text-title c-margin pl-3">
-                            <p>Submit your manuscript or contact Jo</p>
+                    <div class="text-title c-margin pl-3 mt-4 pt-3">
+                        <p>Archives</p>
+                    </div>
+                    <div class="pl-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Month
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">January</a>
+                                <a class="dropdown-item" href="#">February</a>
+                                <a class="dropdown-item" href="#">March</a>
+                                <a class="dropdown-item" href="#">April</a>
+                                <a class="dropdown-item" href="#">May</a>
+                                <a class="dropdown-item" href="#">June</a>
+                                <a class="dropdown-item" href="#">July</a>
+                                <a class="dropdown-item" href="#">August</a>
+                                <a class="dropdown-item" href="#">September</a>
+                                <a class="dropdown-item" href="#">October</a>
+                                <a class="dropdown-item" href="#">November</a>
+                                <a class="dropdown-item" href="#">December</a>
+                            </div>
                         </div>
-                        <div class="pl-3">
-                            <p>Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. </p>
-                            <p><a href="#"><span class="font-weight-bold">> Contact Jo</span></a></p>
-                        </div>
+
                     </div>
 
-                    <div class="mt-5">
+                    <div class="mt-5 mb-5">
                         <img src="img/subscribe-img.png" alt="services" class="c-padding">
                         <div class="text-title c-margin pl-3">
                             <p>Subscribe to Jo’s newsletter for writing tips</p>
@@ -134,14 +166,14 @@
             </div>
         </div>
 
-        <footer class="container-fluid pt-5 pb-3">
+        <footer class="container-fluid pb-4 footer-margin">
             <div class="row">
-                <div class="col-sm-12 col-lg-2 pl-5 mt-3">
+                <div class="col-sm-12 col-md-3 col-lg-2 c-padding-footer mt-3">
                     <div class="row">
-                        <div class="col-12 col-sm-9 pt-2 text-sm-3">
+                        <div class="col-11 col-sm-11 col-md-8 col-lg-9 pt-2 text-sm-3">
                             © Jo Burnell 2018
                         </div>
-                        <div class="col-12 col-sm-3">
+                        <div class="col-1 col-sm-1 col-md-4 col-lg-3">
                             <img src="img/jin-and-co.svg" alt="jin-and-co">
                         </div>
                     </div>
